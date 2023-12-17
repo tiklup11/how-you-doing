@@ -1,0 +1,4 @@
+#Mon Dec 18 02:16:41 IST 2023
+base.0=/Users/pulkitprajapat/Desktop/untitled_folder/how-you-doing/frontend/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
