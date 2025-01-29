@@ -1,44 +1,105 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# Flutter
+frontend/**/flutter_*.png
+frontend/**/flutter_*.json
+frontend/**/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Android
+frontend/**/android/**/gradle-wrapper.jar
+frontend/**/android/.gradle
+frontend/**/android/captures/
+frontend/**/android/gradlew
+frontend/**/android/gradlew.bat
+frontend/**/android/local.properties
+frontend/**/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+frontend/**/ios/**/*.mode1v3
+frontend/**/ios/**/*.mode2v3
+frontend/**/ios/**/*.moved-aside
+frontend/**/ios/**/*.pbxuser
+frontend/**/ios/**/*.perspectivev3
+frontend/**/ios/**/*sync/
+frontend/**/ios/**/.sconsign.dblite
+frontend/**/ios/**/.tags*
+frontend/**/ios/**/.vagrant/
+frontend/**/ios/**/DerivedData/
+frontend/**/ios/**/Icon?
+frontend/**/ios/**/Pods/
+frontend/**/ios/**/.symlinks/
+frontend/**/ios/**/profile
+frontend/**/ios/**/xcuserdata
+frontend/**/ios/.generated/
+frontend/**/ios/Flutter/App.framework
+frontend/**/ios/Flutter/Flutter.framework
+frontend/**/ios/Flutter/Generated.xcconfig
+frontend/**/ios/Flutter/app.flx
+frontend/**/ios/Flutter/app.zip
+frontend/**/ios/Flutter/flutter_assets/
+frontend/**/ios/Flutter/flutter_export_environment.sh
+frontend/**/ios/ServiceDefinitions.json
+frontend/**/ios/Runner/GeneratedPluginRegistrant.*
+
+# IntelliJ/Android Studio
+frontend/.idea/
+frontend/**/*.iml
+frontend/**/*.ipr
+frontend/**/*.iws
+
+# Visual Studio Code
+frontend/.vscode/
+!frontend/.vscode/settings.json
+!frontend/.vscode/tasks.json
+!frontend/.vscode/launch.json
+!frontend/.vscode/extensions.json
+
+# macOS
 .DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# Build
+frontend/build/*
+frontend/**/build/
+frontend/**/android/app/build/
+frontend/**/ios/build/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Coverage
+frontend/**/coverage/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-/build/
+# Packages
+frontend/**/.packages
+frontend/**/pubspec.lock
+frontend/**/pubspec_overrides.yaml
 
-# Symbolication related
-app.*.symbols
+# Environment
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
 
-# Obfuscation related
-app.*.map.json
+# Firebase
+frontend/**/android/app/google-services.json
+frontend/**/ios/Runner/GoogleService-Info.plist
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Miscellaneous
+frontend/**/*.log
+frontend/**/*.swp
+frontend/**/*.swo
+frontend/**/*.class
+frontend/**/*.lock
+frontend/**/*.pyc
+frontend/**/*.keystore
+frontend/**/*.jks
+frontend/**/*.key
+frontend/**/*.pub
+frontend/**/*.p12
+frontend/**/*.der
+frontend/**/*.crt
+frontend/**/*.cer
+frontend/**/*.pem
+frontend/**/*.mobileprovision
+frontend/**/*.orig
+frontend/**/.dart_tool/
+frontend/**/.flutter-plugins
+frontend/**/.flutter-plugins-dependencies
+frontend/**/.metadata
+frontend/**/.history
+frontend/**/.gradle/
+frontend/**/.fvm/
